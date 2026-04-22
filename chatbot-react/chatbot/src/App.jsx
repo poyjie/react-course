@@ -6,8 +6,8 @@ import './App.css'
 
 function App() {
   const [chatMessages, setChatMessages] = useState([
-    { message: 'test', sender: 'user', id: '1' },
-    { message: 'test', sender: 'bot', id: '2' }
+    // { message: 'test', sender: 'user', id: '1' },
+    // { message: 'test', sender: 'bot', id: '2' }
   ]);
   return (
     <div className="app-container">
