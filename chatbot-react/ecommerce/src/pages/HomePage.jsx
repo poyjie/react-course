@@ -1,9 +1,11 @@
 import './Header.css';
 import './HomePage.css';
 
-export default function HomePage() {
+export function HomePage() {
     return (
         <>
+            <title>Ecommerce</title>
+
             <div className="header">
                 <div className="left-section">
                     <div className="marketplace-logo">
