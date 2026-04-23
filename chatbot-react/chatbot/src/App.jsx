@@ -14,7 +14,6 @@ function App() {
       <ChatMessageList
         chatMessages={chatMessages}
       />
-
       <ChatInput
         chatMessages={chatMessages}
         setChatMessages={setChatMessages}
@@ -22,6 +21,4 @@ function App() {
     </div>
   );
 }
-
-
 export default App
