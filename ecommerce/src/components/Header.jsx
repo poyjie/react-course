@@ -4,9 +4,11 @@ import './Header.css';
 export function Header({cartItems}) {
     let totalQuantity = 0;
 
-    cartItems.forEach((item) => {
-        totalQuantity += item.quantity;
-    });
+    if (cartItems) {
+        cartItems.forEach((item) => {
+            totalQuantity += item.quantity;
+        });
+    }
 
     return (
         <div className="header">
